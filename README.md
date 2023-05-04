@@ -5,4 +5,8 @@ English Premier Legue(EPL)
 ## Logical model
 ![alt text](https://github.com/GulmurodY/data_base/blob/main/logical%20model%201.png)
 ### Description of the logical model:
-![alt text](https://github.com/GulmurodY/data_base/blob/main/logical%20%20model%202.png)
+![alt text](https://github.com/GulmurodY/data_base/blob/main/logical%20model2.1.png)
+
+![alt text](https://github.com/GulmurodY/data_base/blob/main/logical%20model%202.2.png)
+
+![alt text](https://github.com/GulmurodY/data_base/blob/main/logical%20model%202.3.png)
