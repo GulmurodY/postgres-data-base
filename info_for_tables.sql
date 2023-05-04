@@ -11,18 +11,18 @@ VALUES
     ('Leeds', 'Leeds United', 'Elland Road', 789194),
     ('Sheffield', 'Sheffield United, Sheffield Wednesday', 'Bramall Lane, Hillsborough Stadium', 584853);
 
-INSERT INTO Players (Name, Nation, Team, position, Birth_date)
+INSERT INTO Players (Name, Nation, Team, Position, Birth_date, Salary)
 VALUES
-    ('Bruno Fernandes', 'Portugal', 'Manchester United', 'Attacking midfielder', '1994-09-08'),
-    ('Harry Kane', 'England', 'Tottenham', 'Striker', '1993-07-28'),
-    ('Mohamed Salah', 'Egypt', 'Liverpool', 'Forward', '1992-06-15'),
-    ('Kevin De Bruyne', 'Belgium', 'Manchester City', 'Midfielder', '1991-06-28'),
-    ('Jamie Vardy', 'England', 'Leicester City', 'Forward', '1987-01-11'),
-    ('Jack Grealish', 'England', 'Aston Villa', 'Attacking midfielder', '1995-09-10'),
-    ('Riyad Mahrez', 'Algeria', 'Manchester City', 'Winger', '1991-02-21'),
-    ('Wilfried Zaha', 'Ivory Coast', 'Crystal Palace', 'Forward', '1992-11-10'),
-    ('Pierre-Emerick Aubameyang', 'Gabon', 'Arsenal', 'Forward', '1989-06-18'),
-    ('Ruben Dias', 'Portugal', 'Manchester City', 'Defender', '1997-05-14');
+('Mohamed Salah', 'Egypt', 'Liverpool', 'Forward', '1992-06-15', 200000),
+('Harry Kane', 'England', 'Tottenham Hotspur', 'Forward', '1993-07-28', 300000),
+('Kevin De Bruyne', 'Belgium', 'Manchester City', 'Midfielder', '1991-06-28', 350000),
+('Bruno Fernandes', 'Portugal', 'Manchester United', 'Midfielder', '1994-09-08', 250000),
+('Raheem Sterling', 'England', 'Manchester City', 'Forward', '1994-12-08', 300000),
+('Jamie Vardy', 'England', 'Leicester City', 'Forward', '1987-01-11', 140000),
+('Sadio Mane', 'Senegal', 'Liverpool', 'Forward', '1992-04-10', 200000),
+('Jack Grealish', 'England', 'Aston Villa', 'Midfielder', '1995-09-10', 150000),
+('Mason Mount', 'England', 'Chelsea', 'Midfielder', '1999-01-10', 100000),
+('Ruben Dias', 'Portugal', 'Manchester City', 'Defender', '1997-05-14', 150000);
 
 
 INSERT INTO Clubs (Name, Location, Stadium_name, Price, Fans)
