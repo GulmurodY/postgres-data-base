@@ -1,6 +1,6 @@
-create database epl_database;
+create database epl;
 
-create table cities(
+create table Cities(
     Name text not null,
     Teams text not null,
     Stadiums text not null,
@@ -8,21 +8,24 @@ create table cities(
 );
 
 create table Players(
-    Name text primary key,
+    Name text,
     Nation text not null,
     Team text not null,
     position text not null,
-    Birth_date date not null
+    Birth_date date not null,
+    Salary int not null
 );
 
 create table Clubs(
+    Name text not null,
     Location text not null,
     Stadium_name text not null,
     Price integer not null,
     Fans integer not null
 );
+
 create table Transfers(
-    Date date primary key,
+    Date date,
     Player text not null,
     Former_club text not null,
     Future_club text not null,
@@ -30,7 +33,7 @@ create table Transfers(
 );
 
 create table Staff(
-    Department text primary key,
+    Department text,
     Staff_name text not null,
     Salary integer not null
 );
@@ -44,14 +47,14 @@ create table Coaches(
 );
 
 create table Stadiums(
-    Name text primary key,
+    Name text,
     Capacity integer not null,
     Location text not null,
     Foundation_date date not null
 );
 
 create table Matches(
-    Date date primary key,
+    Date date,
     Fixture integer not null,
     Host text not null,
     Guest text not null,
