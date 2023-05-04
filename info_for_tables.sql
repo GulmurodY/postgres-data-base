@@ -1,4 +1,4 @@
-INSERT INTO cities (Name, Teams, Stadiums, Population)
+INSERT INTO Cities (Name, Teams, Stadiums, Population)
 VALUES
     ('Manchester', 'Manchester United, Manchester City', 'Old Trafford, Etihad Stadium', 547627),
     ('London', 'Arsenal, Chelsea, Crystal Palace, Tottenham, West Ham', 'Emirates Stadium, Stamford Bridge, Selhurst Park, Tottenham Hotspur Stadium, London Stadium', 8982000),
@@ -25,21 +25,21 @@ VALUES
     ('Ruben Dias', 'Portugal', 'Manchester City', 'Defender', '1997-05-14');
 
 
-INSERT INTO Clubs (Location, Stadium_name, Price, Fans)
+INSERT INTO Clubs (Name, Location, Stadium_name, Price, Fans)
 VALUES
-  ('London', 'Emirates Stadium', 300000000, 60000),
-  ('Manchester', 'Old Trafford', 1500000000, 75000),
-  ('Manchester', 'Etihad Stadium', 1700000000, 55000),
-  ('Liverpool', 'Anfield', 230000000, 53000),
-  ('Liverpool', 'Goodison Park', 50000000, 40000),
-  ('Leeds', 'Elland Road', 100000000, 40000),
-  ('Birmingham', 'Villa Park', 40000000, 42000),
-  ('Birmingham', 'St. Andrew''s Stadium', 15000000, 30000),
-  ('Southampton', 'St. Mary''s Stadium', 25000000, 32000),
-  ('Newcastle', 'St. James'' Park', 32000000, 52000);
+    ('Arsenal', 'London', 'Emirates Stadium', 600000000, 62000),
+    ('Aston Villa', 'Birmingham', 'Villa Park', 300000000, 42000),
+    ('Brentford', 'London', 'Brentford Community Stadium', 100000000, 17300),
+    ('Brighton & Hove Albion', 'Brighton', 'Falmer Stadium', 300000000, 30750),
+    ('Burnley', 'Burnley', 'Turf Moor', 200000000, 21944),
+    ('Chelsea', 'London', 'Stamford Bridge', 1300000000, 41841),
+    ('Crystal Palace', 'London', 'Selhurst Park', 230000000, 25742),
+    ('Everton', 'Liverpool', 'Goodison Park', 400000000, 39571),
+    ('Leeds United', 'Leeds', 'Elland Road', 300000000, 37916),
+    ('Leicester City', 'Leicester', 'King Power Stadium', 500000000, 32702);
 
 
-INSERT INTO STAFF (Department, Staff_name, Salary) VALUES
+INSERT INTO Staff (Department, Staff_name, Salary) VALUES
 ('Coaching', 'Ole Gunnar Solskjaer', 100000),
 ('Coaching', 'Pep Guardiola', 120000),
 ('Coaching', 'Jürgen Klopp', 110000),
