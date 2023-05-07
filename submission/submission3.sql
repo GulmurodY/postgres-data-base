@@ -9,6 +9,25 @@ from standings
 limit 5;
 
 --test
+
+with masked_standings as (
+    select team_name, points, games_played,
+      '***' as masked_won,
+      games_lost,
+      games_drawn,
+      '**' as masked_scored,
+      goals_conceded
+from standings
+limit 5
+)
+SELECT
+  COUNT(*) AS num_rows,
+  MAX(masked_won) AS max_masked_won,
+  MAX(masked_scored) AS max_masked_scored
+FROM masked_standings;
+
+-- expected result: num_rows = 5, max_masked_won = '***', max_masked_scored = '**'
+
 WITH expected_result AS (
   SELECT *
   FROM ( VALUES
