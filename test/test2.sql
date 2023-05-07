@@ -1,3 +1,5 @@
+--test for the query 2
+-- lets find top 5 teams according to their win percentage
 WITH expected_result AS (
   SELECT *
   FROM (VALUES
