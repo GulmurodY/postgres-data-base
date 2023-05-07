@@ -1,3 +1,5 @@
+--test for the query 1
+--Lets rank teams from the league who scored no more than 45 goals
 WITH expected_result AS (
   SELECT *
   FROM (VALUES
