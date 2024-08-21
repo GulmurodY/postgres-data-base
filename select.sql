@@ -1,5 +1,4 @@
 --Lets rank teams from the league who scored no more than 45 goals
-
 select rank() over (order by points desc), team_name, games_won, games_lost, games_drawn
 from standings
 where goals_scored < 45;
@@ -31,7 +30,7 @@ from club_players
 limit 5;
 
 
---every clubs to earner
+--every clubs top earner
 SELECT distinct p.name, p.salary AS top_earner, c.name AS club
 FROM players p
 INNER JOIN clubs c ON p.team = c.name
