@@ -9,7 +9,7 @@ $$ LANGUAGE SQL;
 
 
 -- Test case 1: Testing with a team name that exists in the `clubs` table
-SELECT club_salary('Newcastle United'); -- expected result: total salary of all players in Manchester United
+SELECT club_salary('Newcastle United'); -- expected result: total salary of all players in Newcastle United
 
 -- Test case 2: Testing with a team name that does not exist in the `clubs` table
 SELECT club_salary('Some Unknown Team'); -- expected result: NULL
