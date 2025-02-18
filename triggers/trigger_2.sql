@@ -1,3 +1,4 @@
+-- This trigger is made in order to find new clubs for players after we delete their team from the clubs table.
 -- Create or Replace View for Average Team Salary
 CREATE OR REPLACE VIEW avg_team_salary AS
 SELECT clubs.name AS team_name, AVG(players.salary) AS avg_salary
